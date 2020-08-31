@@ -1,3 +1,3 @@
 ## rust_module
 
-helloworld_1 同级目录下的包
+blog: https://www.cnblogs.com/li-peng/p/13587910.html
