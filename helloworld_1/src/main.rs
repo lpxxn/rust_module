@@ -40,7 +40,7 @@ mod say {
 }
 
 pub mod people {
-    // 重导出名称
+    // 重导出名称, main里的第16行用了say的hi方法
     pub use crate::say::hi;
     use crate::say;
     pub fn hello() {
