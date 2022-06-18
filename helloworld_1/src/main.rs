@@ -56,6 +56,7 @@ pub mod people {
 
 mod people_2 {
     // 重导出名称
+    // self main 21 行
     pub use crate::people::{self, info};
     pub fn hello() {
         info::name();
