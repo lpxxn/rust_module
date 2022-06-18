@@ -60,5 +60,7 @@ mod people_2 {
     pub use crate::people::{self, info};
     pub fn hello() {
         info::name();
+        // 如果去掉use里的info 可以直接这么用
+        //people::info::name();
     }
 }
