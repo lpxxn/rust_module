@@ -64,3 +64,8 @@ mod people_2 {
         //people::info::name();
     }
 }
+/*
+上面使用到了模块章节提到的 self 关键字，用来替代模块自身，结合上一节中的 self，可以得出它在模块中的两个用途：
+
+use self::xxx，表示加载当前模块中的 xxx。此时 self 可省略
+use xxx::{self, yyy}，表示，加载当前路径下模块 xxx 本身，以及模块 xxx 下的 yyy */
